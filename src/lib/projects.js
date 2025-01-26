@@ -1,156 +1,136 @@
-import essentialharvest from '../assets/projects/mockups/eh1.png'
-import sinssflow from '../assets/projects/mockups/sf.png'
-import kyte from '../assets/projects/mockups/kyte1.png'
-import ljs from '../assets/projects/mockups/ljs1.png'
-import fi1 from '../assets/projects/mockups/fi1.png'
-import qualityDigital from '../assets/projects/mockups/qd1.png'
-import sp from '../assets/projects/mockups/sp.png'
-import vk from '../assets/projects/mockups/vk.png'
-import cp from '../assets/projects/mockups/cp.png'
-
+import cfc from "../assets/projects/mockups/cfc.png";
+import pe from "../assets/projects/mockups/pe.png";
+import ccd from "../assets/projects/mockups/ccd.png";
+import og from "../assets/projects/mockups/og.png";
+import sl from "../assets/projects/mockups/sl.png";
 
 export const projects = [
-     {
-          "name": "Ecommerce Application",
-          "slug": "essential-harvest-ecommerce-application",
-          "description": "A robust ecommerce application developed using the MERN stack with advanced features such as inventory management, email marketing, RBAC, and third-party integrations like Razorpay for payments and Google APIs for authentication and data handling.",
-          "features": [
-               "Manual and Google Authentication",
-               "Role-Based Access Control (RBAC) for Admin and Users",
-               "Inventory management system for product tracking",
-               "Dashboard analysis and email marketing based on reports",
-               "Third-party payment integration using Razorpay",
-               "Excel data integration using Google APIs",
-               "Responsive and user-friendly design"
-          ],
-          "techStack": ["MERN (MongoDB, Express, React.js, Node.js)", "Nodemailer", "Google APIs", "Razorpay"],
-          "liveLink": "essentialharvest.in",
-          "image": essentialharvest,
-
-     },
-     {
-          "name": "Project Management Application",
-          "slug": "project-management-application-built-for-sinss",
-          "description": "A comprehensive project management application built for Sinss, featuring a role-based access system, Kanban boards, media storage, and resource management. Designed to streamline project workflows and track performance metrics effectively.",
-          "features": [
-               "Role-Based Access Control (RBAC) for agencies and sub-accounts",
-               "Custom dashboards for performance tracking",
-               "Kanban board for task and project management",
-               "Media storage system for file organization",
-               "Graphical representation of funnel and metrics",
-               "Resource details and invoice sending",
-               "Light and dark mode toggle for accessibility"
-          ],
-          "techStack": [
-               "Next.js",
-               "Prisma",
-               "PostgreSQL",
-               "Tailwind CSS",
-               "shadcn UI",
-               "Nodemailer",
-               "Clerk for authentication",
-               "React Query (Tanstack)"
-          ],
-          "liveLink": "#",
-          "image": sinssflow,
-     },
-     {
-          "name": "Kyte Energy Website",
-          "slug": "kyte-energy-website-design-and-development",
-          "description": "The Kyte Energy website is a visually appealing and responsive platform designed to showcase the company’s offerings. The design was created in Figma and developed into a fully functional and interactive website using React.js and Framer Motion.",
-          "features": [
-               "Custom design in Figma tailored to Kyte Energy's branding",
-               "Fully responsive for all devices",
-               "Smooth animations powered by Framer Motion",
-               "Component-based frontend built using React.js"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "kyteenergy.com",
-          "image": kyte
-     },
-     {
-          "name": "LumberJack Studio Website",
-          "slug": "lumberjack-studio-website-design-and-development",
-          "description": "The LumberJack Studio website is a modern, responsive platform designed to showcase the brand’s expertise in decorative building materials. The design, created in Figma, was developed into a fully functional and visually engaging website using React.js and Framer Motion.",
-          "features": [
-               "Custom design tailored to LumberJack Studio’s branding",
-               "Fully responsive across devices",
-               "Interactive animations using Framer Motion",
-               "Component-based structure developed in React.js"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "lumberjackstudio.in",
-          "image": ljs
-     },
-     {
-          "name": "Forcon Infra Website",
-          "slug": "forcon-infra-website-design-and-development",
-          "description": "The Forcon Infra website is a sleek and professional platform designed to represent the company’s expertise in infrastructure solutions. The design was created in Figma and developed into a fully functional and responsive website using React.js and Framer Motion.",
-          "features": [
-               "Figma design tailored to Forcon Infra’s services",
-               "Fully optimized for all screen sizes",
-               "Smooth animations with Framer Motion",
-               "Built with React.js for scalability and performance"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "forconinfra.com",
-          "image": fi1
-     },
-     {
-          "name": "Quality Digital Color Lab Website",
-          "slug": "quality-digital-website-design-and-development",
-          "description": "The Quality Digital Color Lab website is a vibrant and responsive platform designed to showcase the lab’s expertise in digital printing and photography services. The design reflects the brand’s creativity and professionalism, developed using React.js and enhanced with Framer Motion.",
-          "features": [
-               "Custom Figma design for a creative and professional feel",
-               "Optimized for desktop, tablet, and mobile devices",
-               "Engaging animations powered by Framer Motion",
-               "Component-based development in React.js"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "qualitydigitalcolorlab.com",
-          "image": qualityDigital
-     },
-     {
-          "name": "Shivam Pawar Portfolio Website",
-          "slug": "portfolio-development",
-          "description": "The Shivam Pawar portfolio website is a sleek and professional platform showcasing personal projects, skills, and accomplishments. Designed in Figma, it was developed into a functional and interactive website using React.js and Framer Motion.",
-          "features": [
-               "Custom Figma design reflecting personal branding",
-               "Fully responsive for all devices",
-               "Interactive animations using Framer Motion",
-               "Built with React.js for performance and modularity"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "shivampawar.vercel.app",
-          "image": sp
-     },
-     {
-          "name": "VK Food Website",
-          "slug": "vk-food-website-design-and-development",
-          "description": "The VK Food website is a modern and visually appealing platform created to showcase the brand’s food products and services. Designed in Figma and developed using React.js, with smooth animations powered by Framer Motion.",
-          "features": [
-               "Custom Figma design emphasizing VK Food’s branding",
-               "Responsive design for all devices",
-               "Smooth transitions and hover effects using Framer Motion",
-               "Built with React.js for scalability and performance"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "vkfood.in",
-          "image": vk
-     },
-     {
-          "projectTitle": "Climate App",
-          "description": "A real-time weather application providing detailed climate information for locations worldwide. Built with Next.js, TanStack Query, and OpenWeather API for accurate and efficient data fetching and display.",
-          "features": [
-               "Real-time weather updates with temperature, humidity, wind speed, and condition icons.",
-               "Search functionality for finding weather details of any city.",
-               "Geolocation-based weather data fetching for the user's current location.",
-               "Responsive design optimized for mobile, tablet, and desktop devices.",
-               "Error handling for invalid city names or API issues."
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion", "Shadcn UI", "Tanstack"],
-          "liveLink": "climate-production.vercel.app/",
-          "image": cp
-     }
-
-]
+  {
+    name: "Cynthia Farren Consulting",
+    slug: "Software-asset-management-company",
+    description:
+      "A professional business website developed using WordPress Elementor, featuring a responsive design, user-friendly interface, and tailored solutions for optimizing software and cloud investments.",
+    features: [
+      "Professional Design",
+      "Service-Focused Pages",
+      "Client-Centric Content",
+      "Responsive and Accessible",
+      "Custom Contact Forms",
+      "Search Engine Optimized",
+      "Secure Hosting and Performance",
+      "Responsive and user-friendly design",
+    ],
+    techStack: [
+      "Elementor Pro",
+      "Yoast SEO",
+      "Contact Form 7",
+      "Google Analytics Integration",
+    ],
+    liveLink: "cynthiafarren.com/",
+    image: cfc,
+  },
+  {
+    name: "Cupcake Design Studio",
+    slug: "graphic-design-agency-cupcake",
+    description:
+      "A creative graphic design website built using WordPress Elementor featuring a responsive design, detailed portfolio, and client-focused services for branding, marketing collateral, and digital design.",
+    features: [
+      "Professional Portfolio Display",
+      "Client-Centric Services",
+      "Responsive and Interactive",
+      "Client Collaboration",
+      "Contact and Budget Form",
+      "Light and dark mode toggle for accessibility",
+    ],
+    techStack: [
+      "Elementor Pro",
+      "Yoast SEO",
+      "Contact Form 7",
+      "WP Rocket",
+      "Image Optimization Plugins",
+      "Custom Post Types",
+      "Google Analytics Integration",
+    ],
+    liveLink: "cupcakedesign.com/",
+    image: ccd,
+  },
+  {
+    name: "Pakistan Expacts Management Service (PEMS)",
+    slug: "estate-property-management",
+    description:
+      "A professional service website developed using WordPress Elementor, providing legal and estate management solutions for overseas Pakistanis, with features such as tailored services, online consultations, and transparent pricing.",
+    features: [
+      "Client-Focused Design",
+      "Fully responsive for all devices",
+      "Interactive Features",
+      "Modern and Professional Aesthetic",
+      "Contact and Accessibility",
+    ],
+    techStack: [
+      "Elementor Pro",
+      "Yoast SEO",
+      "Contact Form 7",
+      "WP Rocket",
+      "Image Optimization Plugins",
+      "Custom Post Types",
+      "Security Plugins",
+    ],
+    liveLink: "pakexpats.com",
+    image: pe,
+  },
+  {
+    name: "Overnight Glasses",
+    slug: "overnight-prescription-glasses",
+    description:
+      "An e-commerce website offering prescription glasses and lens replacement services with features like next-day delivery, interactive try-on tools, and premium eyewear collections.",
+    features: [
+      "Custom design tailored to overnight glasses branding",
+      "Fully responsive across devices",
+      "Interactive animations using Framer Motion",
+      "Component-based structure developed in Wordpress",
+      "Secure checkout with multiple payment options.",
+    ],
+    techStack: [
+      "Elementor Pro",
+      "Yoast SEO",
+      "Contact Form 7",
+      "WP Rocket",
+      "TrustPilot/Review Integration",
+      "Image Optimization Plugins",
+      "Custom Post Types",
+      "Security Plugins",
+    ],
+    liveLink: "overnightglasses.com/",
+    image: og,
+  },
+  {
+    name: "Shiplux transport service",
+    slug: "premier-vehicle-shipping-service",
+    description:
+      "A professional vehicle transport service offering premier shipping solutions across the USA and internationally, with advanced features like a multi-service dashboard, global shipping, and 24/365 customer support. The design was created in Figma and developed into a fully functional and responsive website using Wordpress Elementor Pro",
+    features: [
+      "Global reach with an interactive shipping location map",
+      "Integrated TrustPilot reviews for customer testimonials",
+      "Streamlined 'Get a Quote' system for easy shipping requests",
+      "24/365 multichannel customer support",
+      "Transparent pricing with no hidden fees",
+      "Premium vehicle handling with real-time updates",
+      "Responsive design for desktop and mobile devices",
+    ],
+    techStack: [
+      "TrustPilot",
+      "Elementor Pro",
+      "Yoast SEO",
+      "Contact Form 7",
+      "WP Rocket",
+      "TrustPilot/Review Integration",
+      "Image Optimization Plugins",
+      "Custom Post Types",
+      "Security Plugins",
+      "Payment Gateways (Stripe, PayPal)",
+      "Shipping APIs",
+    ],
+    liveLink: "shiplux.com/",
+    image: sl,
+  },
+];

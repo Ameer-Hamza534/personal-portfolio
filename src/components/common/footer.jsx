@@ -1,25 +1,29 @@
-import React from 'react';
-import { Github, Twitter, Linkedin, Mail, ArrowUpRight } from 'lucide-react';
+import React from "react";
+import { Github, Twitter, Linkedin, Mail, ArrowUpRight } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, label: 'GitHub', href: '#' },
-    { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', href: '#' },
-    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', href: '#' },
-    { icon: <Mail className="w-5 h-5" />, label: 'Email', href: 'mailto:hello@example.com' }
+    { icon: <Github className="w-5 h-5" />, label: "GitHub", href: "#" },
+    { icon: <Twitter className="w-5 h-5" />, label: "Twitter", href: "#" },
+    { icon: <Linkedin className="w-5 h-5" />, label: "LinkedIn", href: "#" },
+    {
+      icon: <Mail className="w-5 h-5" />,
+      label: "Email",
+      href: "mailto:hello@example.com",
+    },
   ];
 
   const quickLinks = [
-    { label: 'About', href: '#' },
-    { label: 'Projects', href: '#' },
-    { label: 'Experience', href: '#' },
-    { label: 'Blog', href: '#' }
+    { label: "About", href: "#" },
+    { label: "Projects", href: "#" },
+    { label: "Experience", href: "#" },
+    { label: "Blog", href: "#" },
   ];
 
   return (
-    <footer className="bg-[#FAF9F6] border-t border-gray-200 h-screen flex items-center justify-between w-full ">
+    <footer className="bg-[#FAF9F6] border-t border-gray-200 h-screen flex items-center justify-between w-full px-4">
       <div className=" mx-auto">
         {/* Top Section */}
         <div className="grid md:grid-cols-2 gap-12 mb-12">
@@ -29,11 +33,11 @@ const Footer = () => {
               Let's Build Something Together
             </h2>
             <p className="text-gray-600 mb-6 max-w-md">
-              Open for collaborations and interesting projects.
-              Feel free to reach out if you want to create something amazing.
+              Open for collaborations and interesting projects. Feel free to
+              reach out if you want to create something amazing.
             </p>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:itishamza.pk@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors duration-300"
             >
               Get in Touch
@@ -91,7 +95,7 @@ const Footer = () => {
               © {currentYear} All rights reserved. Built with passion.
             </p>
             <button
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="px-4 py-2 text-sm text-gray-600 hover:text-gray-900 transition-colors duration-300"
             >
               Back to top

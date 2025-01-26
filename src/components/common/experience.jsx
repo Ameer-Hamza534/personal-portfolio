@@ -1,33 +1,33 @@
-'use client'
+"use client";
 
-import { Monitor, BriefcaseIcon } from 'lucide-react'
-import { motion } from 'framer-motion'
-import starIcon from '../../assets/skills/star.svg'
-import reactIcon from '../../assets/skills/react.svg'
+import { motion } from "framer-motion";
+import Star from "../../assets/skills/star.svg";
+import wordpressIcon from "../../assets/skills/wordpress.svg";
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company: "Sinss Digital Marketing Studio",
-    description: "Currently working as a full-stack developer at Sinss Digital Marketing Studio since March 2023. Developed e-commerce, CRM, and project management applications using the MERN stack, Next.js, PostgreSQL, and MySQL. Designed and developed over 8 websites as the sole developer.",
-    icon: starIcon,
-    technologies: ["MERN", "PostgreSQL", "MySQL"],
-    duration: "March 2023 - Present"
+    title: "WordPress Developer",
+    company: "Freelancer (Fiverr, Upwork, Local Clients)",
+    description:
+      "Designed and developed responsive WordPress websites using Elementor Pro, WP Bakery, and DIVI theme for various clients. Specialized in converting Figma, PSD, or PDF designs to WordPress Elementor and creating custom templates. Delivered tailored solutions for e-commerce, trasport, logistics, business, and portfolio websites.",
+    icon: wordpressIcon,
+    technologies: ["Elementor Pro", "WP Bakery", "DIVI Theme", "HTML5", "CSS3"],
+    duration: "4 years (January 2021 - Present)",
   },
   {
-    title: "React Developer Intern",
-    company: "Sinss Digital Marketing Studio",
-    description: "Worked as a React.js developer intern at Sinss Digital Marketing Studio for 3 months from December 2023 to March 2024. Contributed to the development of a website built with React.js.",
-    icon: reactIcon,
-    technologies: ["React.js"],
-    duration: "December 2023 - March 2024"
-  }
-]
-
+    title: "MERN Developer (Intern)",
+    company: "Zawata Afnan Technologies",
+    description:
+      "Completed a 6-month internship, gaining hands-on experience in designing and developing admin panels (dashboards) using the MERN stack. Learned advanced concepts in frontend and backend development, improving skills in React.js, Node.js, MongoDB, and Express.js.",
+    icon: Star,
+    technologies: ["MERN", "MySQL"],
+    duration: "6 months (July 2024 - December 2024)",
+  },
+];
 
 export default function Experience() {
   return (
-    <section className="min-h-screen bg-[#F2F2F4] py-24 px-4 sm:px-6 lg:px-8 rounded-t-[80px]">
+    <section className="min-h-screen bg-[#F2F2F4] py-24 px-4 sm:px-6 lg:px-8 rounded-tl-[40px] md:rounded-tl-[60px]">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -89,5 +89,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
